@@ -15,7 +15,7 @@ output "final_output" {
 
 
 locals {
-  answers = file("modules/write/answers.tfvars")
+  answers = file("./answers.tfvars")
 }
 
 module "write" {
